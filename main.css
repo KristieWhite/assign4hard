@@ -3,33 +3,44 @@ body {font-family: 'Antic Slab', serif;}
 div#container {
     position: relative;
     width: 1000px;
+    margin:0 auto;
 }
 #freeship {
     background-color: rgb(249, 104, 56);
     width: 1000px;
-    height: 30px;
+    height: 28px;
 }
-.priceBar li{
+.priceBar li {
     list-style: none;
     font-size: .25rem;
     color: white;
     float: left;
-    width: 15%;
-    padding: 1rem;
+    width: 13%;
+    padding: .5rem 0 0 0;
+}
+ li.darkLi {
+    background-color: rgb(195, 81, 42);
+    padding: .25rem .25rem .25rem 2.5rem;
 }
 #skinnyTiesNav {
     width: 1000px;
-    height: 60px;
+    height: 50px;
 }
+
+
 .tieTypes li{
+    margin: 1rem;
     list-style: none;
     float: left;
-    width: 10%;
+    width: 7%;
+    text-align: center;
+    color: rgb(142, 142, 142);
 }
 #tieDisplay {
     width: 1000px;
-    height: 200px;
+    height: 240px;
     background-color: rgb(244, 244, 244);
+    
 }
 .tieDisplay li{
     list-style: none;
@@ -39,12 +50,12 @@ div#container {
 .tieListDisplay li {
     list-style: none;
     float: left;
-    width: 8.2%;
+    width: 8%;
     text-align: center;
     font-size: .7rem;
 }
 .tieListMargin {margin-left:100px;}
-.tieMargin {margin-left: 124px;}
+.tieMargin {margin-left: 18px;}
 
 .clearFloat {
     clear: both;
@@ -52,42 +63,123 @@ div#container {
     height: 0;
     padding: 0;
 }
-h1 {text-align: center;}
+h1 {
+    text-align: center;
+margin: 1em;
+}
 
-#tiesSquaresBars {}
-
+#tiesSquaresBars {
+    position: relative;
+    margin: auto;
+    padding: 1em;
+    width: 950px;
+}
+.subCat li{
+    float: left;
+    width: 30%;
+    padding: .5em;
+}
 .tiesSquaresBars li{
     list-style: none;
     float: left;
     width: 20%;
-    padding: rem;
-    margin-left: 50px;
+    padding: 0 2em;
+}
+#weStarted {
+    padding: 0 8em;
 }
 h2 {
     text-align: center;
     padding: 2rem 2rem 0 2rem;
+    color: rgb(132, 132, 132);
 }
 p.story {
     text-align: center;
+    font-size: .8em;
+}
+h5 {
+    font-weight: 900;
 }
 .weeklyBox {
     box-sizing: border-box;
     width: 200px;
+    height: 200px;
     float: left;
+    padding: .5em;
+    border-top: 1px dashed;
+    border-color: rgb(224, 225, 224);
 }
 a {
     text-decoration: none;
+    color: rgb(97, 174, 255);
 }
 p.weekly {
-    font-size: .25rem;
+    font-size: .1em;
+    width: 175px;
 }
-div#weekly {
+#weekly {
     margin: auto;
     margin: 2rem;
     padding: 1rem;
 }
-#footer {}
+/*.dashedBox {
+    border-top: 1px dashed;
+    border-bottom: 1px dashed;
+    border-color: rgb(224, 225, 224);
+}*/
+#footer {
+    background-color: rgb(244, 244, 244);
+    padding: 0 1em;
+    position: relative;
+}
 div#footer ul {
     list-style: none;
     float: left;
+}
+.directoryHead {
+    font-weight: 900;
+    font-size: 9px;
+    padding-bottom: .5em;
+}
+.directory {
+    color: rgb(142, 142, 142);
+    font-size: 8.5px;
+    padding: .25em;
+}
+#hereForYou {
+    float:right;
+    width: 270px;
+    margin: 1.2em 7em 1em 0;
+    background-color: rgb(162, 174, 192);
+    border-radius: 4px;
+}
+.hereForYou1 {
+    color: white;
+    font-size: 1.4em;
+    padding: 0 0 0 .5em;
+}
+.hereForYou2 {
+    color:white;
+    padding: 0 0 0 1em;
+}
+.subscribeButton {
+    background-color: rgb(58,163,255);
+    color: white;
+    border-radius: 4px;
+    padding: .5em;
+    margin: 1em;
+}
+.forYouButton {
+    position: absolute;
+    background-color: rgb(58,163,255);
+    color: white;
+    border-radius: 4px;
+    margin: -45px 0 8px 180px;
+    padding: .5em;
+}
+.copyRight {
+    color: rgb(142, 142, 142);
+    font-size: 8.5px;
+    padding: .25em;
+    margin-left: 4.5em;
 }
